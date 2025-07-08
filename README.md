@@ -1,33 +1,43 @@
-# Stock Portfolio Tracker
+# 📈 Stock Portfolio Tracker (India Edition 🇮🇳)
 
-A simple yet powerful desktop application for tracking stock investments, built with Python and SQLite. Perfect for demonstrating programming skills for finance job applications.
+A desktop GUI application built with **Python & Tkinter** to manage and monitor your stock portfolio in real-time. Designed especially for the **Indian stock market**, this tool helps track gains/losses, fetches live prices (via Yahoo Finance), and exports data effortlessly.
 
-## 🎯 Features
+---
 
-- **Add Stocks**: Input stock symbols, quantities, and purchase prices
-- **Real-time Prices**: Fetch current stock prices from Yahoo Finance API
-- **Portfolio Management**: View all holdings with automatic gain/loss calculations
-- **Data Export**: Export portfolio data to CSV format for external analysis
-- **Database Storage**: Persistent storage using SQLite database
-- **Clean GUI**: User-friendly interface built with tkinter
-- **Multi-threading**: Non-blocking price updates to prevent GUI freezing
+## 🔧 Features
 
-## 📸 Screenshots
+- 🏦 Track multiple Indian stocks (NSE/BSE) like `HDFCBANK.NS`, `INFY.NS`, etc.
+- 💸 Live stock price updates with `₹` currency symbol.
+- 📊 Real-time gain/loss & total value calculations.
+- 🧾 SQLite-powered local storage.
+- 📁 Export portfolio to CSV.
+- 🧹 Add/Delete stocks easily.
+- 🚀 Auto-refresh with threading to prevent GUI freeze.
 
-![Portfolio Tracker Interface](https://via.placeholder.com/800x600?text=Portfolio+Tracker+Interface)
+---
 
-## 🚀 Quick Start
+## 🖼️ Preview
 
-### Prerequisites
-- Python 3.7 or higher
-- Internet connection (for fetching stock prices)
+![Portfolio Screenshot](./screenshot.png) <!-- (Optional: Replace with actual screenshot path) -->
 
-### Installation
+---
 
-1. **Clone or download the repository**
+## 🛠️ Requirements
+
+- Python 3.8+
+- Modules:
+  - `yfinance`
+  - `pandas`
+  - `tkinter` *(usually built-in)*
+
+---
+
+## 📦 Installation
+
+1. **Clone or Download the repo**
    ```bash
-   git clone https://github.com/yourusername/stock-portfolio-tracker.git
-   cd stock-portfolio-tracker
+   git clone https://github.com/yourusername/portfolio-tracker.git
+   cd portfolio-tracker
    ```
 
 2. **Install dependencies**
@@ -35,190 +45,60 @@ A simple yet powerful desktop application for tracking stock investments, built 
    pip install -r requirements.txt
    ```
 
-3. **Run the application**
+3. *(Optional)* **Setup demo data**
    ```bash
-   python portfolio_tracker.py
+   python setup_demo.py
    ```
 
-### Alternative Launch Methods
+4. **Run the application**
+   ```bash
+   python run.py
+   ```
 
-- **Using the launcher script:**
-  ```bash
-  python run.py
-  ```
+---
 
-- **Add demo data (optional):**
-  ```bash
-  python setup_demo.py
-  ```
+## 🔍 Supported Stock Format
 
-- **Run tests:**
-  ```bash
-  python test_portfolio.py
-  ```
+To track Indian stocks, use the **`.NS`** suffix for NSE stocks (e.g., `TCS.NS`, `RELIANCE.NS`).  
+You can search & autocomplete symbols using the updated dropdown feature.
 
-## 💡 How to Use
+---
 
-### Adding Stocks
-1. Enter stock symbol (e.g., AAPL, GOOGL, MSFT)
-2. Enter quantity of shares purchased
-3. Enter purchase price per share
-4. Click "Add Stock"
+## 📤 Exporting
 
-### Viewing Portfolio
-- See all your stocks with current prices
-- View gain/loss for each position
-- Monitor total portfolio value
-- Stocks are automatically grouped by symbol
+Click on **"Export CSV"** to download your full portfolio data to a `.csv` file for further analysis in Excel, Google Sheets, or Power BI.
 
-### Refreshing Prices
-- Click "Refresh Prices" to update current market prices
-- Uses Yahoo Finance API for real-time data
-- Updates happen in background thread (non-blocking)
+---
 
-### Managing Positions
-- Select a stock in the table and click "Delete Selected" to remove
-- Export portfolio data to CSV for external analysis
-- All data is automatically saved to SQLite database
+## ✅ Testing
 
-## 🏗️ Project Structure
-
-```
-stock-portfolio-tracker/
-├── portfolio_tracker.py    # Main application file
-├── requirements.txt        # Python dependencies
-├── setup_demo.py          # Demo data setup script
-├── run.py                 # Application launcher
-├── test_portfolio.py      # Test suite
-├── README.md              # This file
-├── .gitignore            # Git ignore patterns
-└── portfolio.db          # SQLite database (created automatically)
-```
-
-## 🔧 Technical Details
-
-### Database Schema
-
-**Portfolio Table:**
-- `id`: Primary key (auto-increment)
-- `symbol`: Stock symbol (TEXT)
-- `quantity`: Number of shares (INTEGER)
-- `purchase_price`: Price per share at purchase (REAL)
-- `purchase_date`: Date of purchase (TEXT)
-- `created_at`: Timestamp of record creation
-
-**Price History Table:**
-- `id`: Primary key (auto-increment)
-- `symbol`: Stock symbol (TEXT)
-- `price`: Current price (REAL)
-- `date`: Date of price record (TEXT)
-- Unique constraint on (symbol, date)
-
-### Key Features Implementation
-
-**GUI Components:**
-- `tkinter` for cross-platform desktop interface
-- `ttk` widgets for modern appearance
-- `Treeview` for tabular data display
-- Thread-safe price updates
-
-**Data Management:**
-- SQLite database for persistent storage
-- Pandas for data manipulation and CSV export
-- Proper input validation and error handling
-
-**Financial Calculations:**
-- Automatic gain/loss computation
-- Portfolio value aggregation
-- Average price calculation for multiple purchases
-
-## 📋 Resume Points
-
-### Technical Skills Demonstrated
-- **Python Programming**: Object-oriented design, GUI development
-- **Database Management**: SQLite, SQL queries, data modeling
-- **API Integration**: Yahoo Finance API for real-time data
-- **Data Processing**: Pandas for data manipulation
-- **Multi-threading**: Background processing for responsive UI
-- **Error Handling**: Comprehensive input validation
-
-### Professional Features
-- **Complete Application**: End-to-end functionality
-- **Production Ready**: Proper error handling and user feedback
-- **Modular Design**: Clean, maintainable code structure
-- **Documentation**: Comprehensive README and comments
-
-## 🧪 Testing
-
-Run the test suite to verify all functionality:
-
+Run the built-in test suite to validate core functionality:
 ```bash
 python test_portfolio.py
 ```
 
-Tests cover:
-- Module imports and dependencies
-- Database operations (create, read, update, delete)
-- Financial calculations accuracy
-- CSV export functionality
+---
 
-## 🚀 Installation Troubleshooting
+## 💡 Tips
 
-### Common Issues
-
-**Import Error: No module named 'yfinance'**
-```bash
-pip install yfinance pandas
-```
-
-**Tkinter Not Found (Linux)**
-```bash
-sudo apt-get install python3-tk
-```
-
-**Permission Denied (macOS)**
-```bash
-pip install --user yfinance pandas
-```
-
-### Requirements
-- `yfinance==0.2.18` - Yahoo Finance API for stock data
-- `pandas==2.0.3` - Data manipulation and CSV export
-
-## 📊 Example Usage
-
-1. **Start the application**
-   ```bash
-   python portfolio_tracker.py
-   ```
-
-2. **Add some stocks**
-   - AAPL: 10 shares at $150.00
-   - GOOGL: 5 shares at $2800.00
-   - MSFT: 8 shares at $380.00
-
-3. **Refresh prices** to see current values and gains/losses
-
-4. **Export to CSV** for further analysis
-
-## 🎯 Interview Talking Points
-
-When discussing this project:
-
-1. **Database Design**: "I designed a normalized SQLite schema with proper relationships and constraints"
-2. **API Integration**: "I integrated Yahoo Finance API with proper error handling and rate limiting"
-3. **GUI Development**: "I built a responsive desktop application using tkinter with multi-threading"
-4. **Financial Logic**: "I implemented portfolio calculations including gain/loss analysis and valuation"
-5. **Error Handling**: "I added comprehensive input validation and user feedback mechanisms"
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Feel free to submit issues and enhancement requests!
+- Prices are fetched in **INR (₹)** using Yahoo Finance.
+- You can manually add more stock symbols or import from CSV.
 
 ---
 
-**Perfect for finance job applications!** This project demonstrates practical programming skills applied to financial domain problems.
+## 🧠 Powered By
+
+- [Tkinter](https://docs.python.org/3/library/tkinter.html)
+- [Yahoo Finance API via yfinance](https://pypi.org/project/yfinance/)
+- [SQLite3](https://www.sqlite.org/index.html)
+- [Pandas](https://pandas.pydata.org/)
+
+---
+
+## 📃 License
+
+MIT License — free for personal or commercial use.
+
+---
+
+> Crafted with ❤️ by [Your Name] | Feel free to fork, star, or contribute!

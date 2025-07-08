@@ -18,7 +18,7 @@ A desktop GUI application built with **Python & Tkinter** to manage and monitor 
 
 ## 🖼️ Preview
 
-![Portfolio Screenshot](./screenshot.png) <!-- (Optional: Replace with actual screenshot path) -->
+![WhatsApp Image 2025-07-08 at 14 02 13](https://github.com/user-attachments/assets/52d3c5d9-7edd-4cc0-94db-005e080930ff)
 
 ---
 

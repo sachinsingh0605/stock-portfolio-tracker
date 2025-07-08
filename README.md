@@ -101,4 +101,4 @@ MIT License — free for personal or commercial use.
 
 ---
 
-> Crafted with ❤️ by [Your Name] | Feel free to fork, star, or contribute!
+> Crafted with ❤️ by Sachin Singh | Feel free to fork, star, or contribute!

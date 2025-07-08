@@ -36,7 +36,7 @@ A desktop GUI application built with **Python & Tkinter** to manage and monitor 
 
 1. **Clone or Download the repo**
    ```bash
-   git clone https://github.com/yourusername/portfolio-tracker.git
+   git clone https://github.com/sachinsingh0605/stock-portfolio-tracker.git
    cd portfolio-tracker
    ```
 

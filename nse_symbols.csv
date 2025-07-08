@@ -1,26 +1,139 @@
 Symbol,Name
-RELIANCE.NS,Reliance Industries
-TCS.NS,Tata Consultancy Services
-INFY.NS,Infosys Ltd
-HDFCBANK.NS,HDFC Bank
-ICICIBANK.NS,ICICI Bank
-SBIN.NS,State Bank of India
-AXISBANK.NS,Axis Bank
+ABB.NS,ABB India Ltd
+ADANIENT.NS,Adani Enterprises Ltd
+ADANIGREEN.NS,Adani Green Energy Ltd
+ADANIPORTS.NS,Adani Ports and Special Economic Zone Ltd
+ADANIPOWER.NS,Adani Power Ltd
+ADITYADSL.NS,Aditya Birla Fashion and Retail Ltd
+APLLTD.NS,Alembic Pharmaceuticals Ltd
+ALKEM.NS,Alkem Laboratories Ltd
+APOLLOHOSP.NS,Apollo Hospitals Enterprise Ltd
+ASIANPAINT.NS,Asian Paints Ltd
+AUROPHARMA.NS,Aurobindo Pharma Ltd
+AXISBANK.NS,Axis Bank Ltd
+BEML.NS,BEML Ltd
+BAJAJ-AUTO.NS,Bajaj Auto Ltd
+BAJFINANCE.NS,Bajaj Finance Ltd
+BAJAJFINSV.NS,Bajaj Finserv Ltd
+BAJAJHLDNG.NS,Bajaj Holdings & Investment Ltd
+BANKBARODA.NS,Bank of Baroda
+BERGER.NS,Berger Paints India Ltd
+BEL.NS,Bharat Electronics Ltd
+BHEL.NS,Bharat Heavy Electricals Ltd
+BPCL.NS,Bharat Petroleum Corporation Ltd
+BHARTIARTL.NS,Bharti Airtel Ltd
+BIOCON.NS,Biocon Ltd
+BLUESTAR.NS,Blue Star Ltd
+BRITANNIA.NS,Britannia Industries Ltd
+CESC.NS,CESC Ltd
+CADILAHC.NS,Cadila Healthcare Ltd
+CANBK.NS,Canara Bank
+CIPLA.NS,Cipla Ltd
+COALINDIA.NS,Coal India Ltd
+COFORGE.NS,Coforge Ltd
+COLPAL.NS,Colgate-Palmolive (India) Ltd
+CONCOR.NS,Container Corporation of India Ltd
+CROMPTON.NS,Crompton Greaves Consumer Electricals Ltd
+DABUR.NS,Dabur India Ltd
+DIVISLAB.NS,Divi's Laboratories Ltd
+DIXON.NS,Dixon Technologies (India) Ltd
+DRREDDYS.NS,Dr. Reddy's Laboratories Ltd
+DRREDDY.NS,Dr. Reddy's Laboratories Ltd
+EICHERMOT.NS,Eicher Motors Ltd
+GAIL.NS,GAIL (India) Ltd
+GLENMARK.NS,Glenmark Pharmaceuticals Ltd
+GODREJCP.NS,Godrej Consumer Products Ltd
+GUJGASLTD.NS,Gujarat Gas Ltd
+GSPL.NS,Gujarat State Petronet Ltd
+HCLTECH.NS,HCL Technologies Ltd
+HDFCBANK.NS,HDFC Bank Ltd
+HDFCLIFE.NS,HDFC Life Insurance Company Ltd
+HAVELLS.NS,Havells India Ltd
+HEIDELBERG.NS,HeidelbergCement India Ltd
+HEROMOTOCO.NS,Hero MotoCorp Ltd
+HINDALCO.NS,Hindalco Industries Ltd
+HAL.NS,Hindustan Aeronautics Ltd
+HINDUNILVR.NS,Hindustan Unilever Ltd
+HINDZINC.NS,Hindustan Zinc Ltd
+HONAUT.NS,Honeywell Automation India Ltd
+ICICIBANK.NS,ICICI Bank Ltd
+ICICIPRULI.NS,ICICI Prudential Life Insurance Company Ltd
+IDBI.NS,IDBI Bank Ltd
 ITC.NS,ITC Ltd
-LT.NS,Larsen & Toubro
-BHARTIARTL.NS,Bharti Airtel
-WIPRO.NS,Wipro Ltd
-ONGC.NS,Oil & Natural Gas Corporation
-HCLTECH.NS,HCL Technologies
-BAJFINANCE.NS,Bajaj Finance
-ADANIENT.NS,Adani Enterprises
-ULTRACEMCO.NS,UltraTech Cement
-KOTAKBANK.NS,Kotak Mahindra Bank
-MARUTI.NS,Maruti Suzuki
-SUNPHARMA.NS,Sun Pharmaceuticals
-TITAN.NS,Titan Company
-COALINDIA.NS,Coal India
+IOC.NS,Indian Oil Corporation Ltd
+IRCTC.NS,Indian Railway Catering and Tourism Corporation Ltd
+IRFC.NS,Indian Railway Finance Corporation Ltd
+IREDA.NS,Indian Renewable Energy Development Agency Ltd
+INDRAPRASTHA.NS,Indraprastha Gas Ltd
+INDUSINDBK.NS,IndusInd Bank Ltd
+INFY.NS,Infosys Ltd
+INDIGO.NS,InterGlobe Aviation Ltd
+JKCEMENT.NS,JK Cement Ltd
+JSWSTEEL.NS,JSW Steel Ltd
+JINDALSTEL.NS,Jindal Steel & Power Ltd
+JUBLFOOD.NS,Jubilant FoodWorks Ltd
+KANSAINER.NS,Kansai Nerolac Paints Ltd
+KOTAKBANK.NS,Kotak Mahindra Bank Ltd
+LTTS.NS,L&T Technology Services Ltd
+LTIM.NS,LTIMindtree Ltd
+LT.NS,Larsen & Toubro Ltd
+LIC.NS,Life Insurance Corporation of India
+LUPIN.NS,Lupin Ltd
+MARICO.NS,Marico Ltd
+MARUTI.NS,Maruti Suzuki India Ltd
+MFSL.NS,Max Financial Services Ltd
+MINDTREE.NS,Mindtree Ltd
+MOTHERSON.NS,Motherson Sumi Systems Ltd
+MPHASIS.NS,Mphasis Ltd
+NHPC.NS,NHPC Ltd
 NTPC.NS,NTPC Ltd
-POWERGRID.NS,Power Grid Corporation
-NESTLEIND.NS,Nestle India
-TECHM.NS,Tech Mahindra
+NATIONALUM.NS,National Aluminium Company Ltd
+NESTLEIND.NS,Nestle India Ltd
+ONGC.NS,Oil & Natural Gas Corporation
+OFSS.NS,Oracle Financial Services Software Ltd
+PAGEIND.NS,Page Industries Ltd
+PERSISTENT.NS,Persistent Systems Ltd
+PETRONET.NS,Petronet LNG Ltd
+PIDILITIND.NS,Pidilite Industries Ltd
+POLYCAB.NS,Polycab India Ltd
+PFC.NS,Power Finance Corporation Ltd
+POWERGRID.NS,Power Grid Corporation of India Ltd
+PNB.NS,Punjab National Bank
+RECLTD.NS,REC Ltd
+RADICO.NS,Radico Khaitan Ltd
+RELIANCE.NS,Reliance Industries Ltd
+RPOWER.NS,Reliance Power Ltd
+SBILIFE.NS,SBI Life Insurance Company Ltd
+SJVN.NS,SJVN Ltd
+SHREECEM.NS,Shree Cement Ltd
+SIEMENS.NS,Siemens Ltd
+SPICEJET.NS,SpiceJet Ltd
+SBIN.NS,State Bank of India
+SAIL.NS,Steel Authority of India Ltd
+STAR.NS,Sterlite Technologies Ltd
+SUNPHARMA.NS,Sun Pharmaceutical Industries Ltd
+SUZLON.NS,Suzlon Energy Ltd
+TVSMOTOR.NS,TVS Motor Company Ltd
+TCS.NS,Tata Consultancy Services Ltd
+TATACONSUM.NS,Tata Consumer Products Ltd
+TATAMOTORS.NS,Tata Motors Ltd
+TATAPOWER.NS,Tata Power Company Ltd
+TATASTEEL.NS,Tata Steel Ltd
+TECHM.NS,Tech Mahindra Ltd
+RAMCOCEM.NS,The Ramco Cements Ltd
+TITAN.NS,Titan Company Ltd
+TORNTPHARM.NS,Torrent Pharmaceuticals Ltd
+TORNTPOWER.NS,Torrent Power Ltd
+TRENT.NS,Trent Ltd
+ULTRACEMCO.NS,UltraTech Cement Ltd
+UNIONBANK.NS,Union Bank of India
+UBL.NS,United Breweries Ltd
+MCDOWELL-N.NS,United Spirits Ltd
+VARUNBEV.NS,Varun Beverages Ltd
+VEDL.NS,Vedanta Ltd
+VOLTAS.NS,Voltas Ltd
+WESTLIFE.NS,Westlife Development Ltd
+WIPRO.NS,Wipro Ltd
+YESBANK.NS,Yes Bank Ltd
+ZEEL.NS,Zee Entertainment Enterprises Ltd
+
